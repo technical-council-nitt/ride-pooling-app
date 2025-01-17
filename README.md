@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Ride Pooling App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The **Ride Pooling App** is a web-based (or PWA) application designed to connect travelers who are looking to share rides. Whether you need to get to the same destination or just looking for a travel companion, this app makes it easy for users to find suitable rides, send requests, and share contact details safely.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### **User Profile**
+- **Name** (Required)
+- **Sex** (Required)
+- **Roll Number** (Optional)
 
-### `npm start`
+### **Travel Details**
+- Pickup location
+- Dropoff location
+- Preferred departure time (or time range)
+- Acceptable time deviations
+- Number and sex of accompanying travelers
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **Control Visibility**
+- Users can control which contact details are visible to others to ensure privacy.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **Listing View**
+- Users can browse listings in either a card or list view.
+- Listings contain the trip details provided by the original poster.
 
-### `npm test`
+### **Request System**
+- Interested users can send requests to the original poster with their basic profile details.
+- The listing creator has the option to accept or reject incoming requests.
+  - **Accepted requests**: Both users are added to a group, where they can share contact details.
+  - **Rejected requests**: The requesting user receives a notification.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Feature Enhancements
 
-### `npm run build`
+- **Preference System**: Users can specify their preferred mode of travel, group size, gender preferences, and other travel preferences.
+- **Smart Recommendation Engine**: Suggests suitable trips and groups based on user preferences.
+- **Built-in Chat System**: Allows users to communicate without directly sharing personal contact information, similar to OLX.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run this app locally, you need to have the following installed:
 
-### `npm run eject`
+- Node.js
+- npm 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository.
+2. Run 'npm start'
+3. Run the backend separately.
