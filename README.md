@@ -47,5 +47,6 @@ To run this app locally, you need to have the following installed:
 ### Installation
 
 1. Clone the repository.
-2. Run 'npm start'
+2. Run 'npm install' to install dependancies.
 3. Run the backend separately.
+4. Run 'npm start'.

@@ -3,6 +3,10 @@ export const content = [
   "./src/**/*.{js,jsx,ts,tsx}",
 ];
 export const theme = {
-  extend: {},
+  extend: {
+    height: {
+      'dscreen': '100dvh', 
+    },
+  },
 };
 export const plugins = [];
